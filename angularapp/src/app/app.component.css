@@ -1,0 +1,22 @@
+*{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+header {
+    border: 1px solid rgb(254, 103, 103);
+    background-color: rgb(253, 136, 106);
+    color: white;
+}
+
+header>h3 {
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+.container {
+    padding: 25px 25px;
+    margin-left: 15%;
+}
+
+.food-container {
+    width: 100%;
+}

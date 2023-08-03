@@ -3,16 +3,24 @@ import { NgModule } from '@angular/core';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { FoodListComponent } from './food-list/food-list.component';
+import{FormsModule} from '@angular/forms'
+import {FoodSearchPipe} from './food-search.pipe';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    FoodListComponent,
+    FoodSearchPipe
+
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule { }
